@@ -1,0 +1,29 @@
+#{extends 'main.html' /}
+#{set title:'Ajouter une tâche' /}
+
+<h1>Ajouter une nouvelle tâche</h1>
+
+<form method="post" name="Application.ajouterTacheForm" action="">
+
+    	<p>
+
+        	<label>Libelle Tache:</label> : <input type="text" name="libelle" />
+
+    	</p>
+	
+
+	<p>
+
+		<label>Description:</label> : <input type="text" name="description" />
+
+	</p>
+	<p>
+
+        	<label>Statut Tache:</label> : <input type="text" name="statut" />
+
+    	</p>
+	<p>
+		<input type="submit" name="ok" value="SUBMIT" />
+
+	</p>
+</form>
